@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="theme-color" content="#f7efe0" />
+    <title>Edem & Maame Take Seattle</title>
+    <link rel="preload" href="assets/seattle-waterfront-photo.jpg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="password-screen" id="passwordScreen">
+      <div class="passport-card">
+        <p class="eyebrow">Private itinerary checkpoint</p>
+        <h1>Takeover Entry</h1>
+        <div class="gate-photos" aria-label="Edem and Maame">
+          <img class="gate-photo edem-photo" src="assets/edem-photo.jpg" alt="Edem smiling" />
+          <img class="gate-photo maame-photo" src="assets/maame-photo.jpg" alt="Maame smiling" />
+        </div>
+        <p class="gate-copy">
+          Access is reserved for Edem and Maame.
+        </p>
+        <form class="password-form" id="passwordForm">
+          <label for="passwordInput">Entry phrase</label>
+          <div class="input-row">
+            <input id="passwordInput" name="password" type="password" autocomplete="off" placeholder="Enter password" />
+            <button type="submit">Unlock</button>
+          </div>
+          <p class="helper-text" id="passwordHelp">Hint: your favorite Doritos flavor.</p>
+        </form>
+      </div>
+    </div>
+
+    <main class="site-shell" id="siteShell" aria-hidden="true">
+      <header class="hero">
+        <nav class="topbar" aria-label="Page sections">
+          <a href="#days">Days</a>
+          <a href="#screening">Films</a>
+        </nav>
+
+        <section class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">July 23-29 / Seattle</p>
+            <h1>Edem & Maame Take Seattle</h1>
+            <div class="hero-actions">
+              <a class="primary-action" href="#days">Inspect itinerary</a>
+              <a class="secondary-action" href="#screening">Movie options</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Arrival countdown">
+            <img src="assets/seattle-waterfront-photo.jpg" alt="Seattle waterfront and Great Wheel at sunrise" />
+            <a class="photo-credit" href="https://commons.wikimedia.org/wiki/File:Seattle_sunrise.jpg" target="_blank" rel="noreferrer">Photo: davidjlee / CC BY 2.0</a>
+            <div class="countdown-card">
+              <span>Arrival protocol begins in</span>
+              <strong id="countdown">Calculating</strong>
+              <small>SEA pickup / Thursday / 6:45pm</small>
+            </div>
+          </aside>
+        </section>
+      </header>
+
+      <section class="ticker" aria-label="Visit highlights">
+        <div class="ticker-track">
+          <span>soft landing</span>
+          <span>city exploring</span>
+          <span>meet the friends</span>
+          <span>bar hopping</span>
+          <span>home day</span>
+          <span>bookstore stop</span>
+          <span>tbd adventure</span>
+          <span>soft landing</span>
+          <span>city exploring</span>
+          <span>meet the friends</span>
+        </div>
+      </section>
+
+      <section class="section days-section" id="days">
+        <div class="section-heading">
+          <p class="eyebrow">The dossier</p>
+          <h2>Seven chapters</h2>
+          <p>Tap any day to expand the plan.</p>
+        </div>
+        <div class="day-stack" id="dayStack"></div>
+      </section>
+
+      <section class="section movie-section" id="screening">
+        <div class="section-heading">
+          <p class="eyebrow">Films</p>
+          <h2>Movie options</h2>
+        </div>
+        <div class="movie-board" id="movieBoard"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
