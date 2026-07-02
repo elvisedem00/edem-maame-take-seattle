@@ -123,13 +123,6 @@ function unlockSite() {
   passwordScreen.classList.add("is-hidden");
   siteShell.classList.add("is-unlocked");
   siteShell.removeAttribute("aria-hidden");
-  localStorage.setItem("seattleVisitUnlocked", "true");
-}
-
-const forceLocked = new URLSearchParams(window.location.search).get("locked") === "1";
-
-if (!forceLocked && localStorage.getItem("seattleVisitUnlocked") === "true") {
-  unlockSite();
 }
 
 passwordForm.addEventListener("submit", (event) => {
