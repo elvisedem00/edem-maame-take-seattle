@@ -1,9 +1,8 @@
 const PASSWORD = "chili heat wave";
-const arrivalDate = new Date("2026-07-23T18:45:00-07:00");
 
 const days = [
   {
-    date: "Thu Jul 23",
+    date: "Thursday",
     title: "Soft Landing",
     vibe: "Airport pickup, homemade dinner, movie night, and very little ambition.",
     stripe: "#16777b",
@@ -16,7 +15,7 @@ const days = [
     ],
   },
   {
-    date: "Fri Jul 24",
+    date: "Friday",
     title: "Exploring the City",
     vibe: "Waterfront, aquarium, boat views, a big wheel, and a dressy evening.",
     stripe: "#d65f45",
@@ -33,7 +32,7 @@ const days = [
     ],
   },
   {
-    date: "Sat Jul 25",
+    date: "Saturday",
     title: "Seattle Center + Meeting Friends",
     vibe: "Views, glass gardens, Bite of Seattle, friends, and a classified night plan.",
     stripe: "#e3b64d",
@@ -49,7 +48,7 @@ const days = [
     ],
   },
   {
-    date: "Sun Jul 26",
+    date: "Sunday",
     title: "Spend the Day at Home With Me?",
     vibe: "Brunch, movies, cooking, baking, and doing the absolute least.",
     stripe: "#9bd3bf",
@@ -63,7 +62,7 @@ const days = [
     ],
   },
   {
-    date: "Mon Jul 27",
+    date: "Monday",
     title: "See Where I Work + Mall + Bookstore",
     vibe: "Microsoft campus, mall wandering, and a bookstore stop.",
     stripe: "#7bb7d8",
@@ -75,7 +74,7 @@ const days = [
     ],
   },
   {
-    date: "Tue Jul 28",
+    date: "Tuesday",
     title: "TBD",
     vibe: "Still planning.",
     stripe: "#5d406f",
@@ -86,7 +85,7 @@ const days = [
     ],
   },
   {
-    date: "Wed Jul 29",
+    date: "Wednesday",
     title: "Final Chapter",
     vibe: "Final moments at home, doing nothing.",
     stripe: "#ef9a8a",
@@ -115,7 +114,6 @@ const passwordInput = document.querySelector("#passwordInput");
 const passwordHelp = document.querySelector("#passwordHelp");
 const dayStack = document.querySelector("#dayStack");
 const movieBoard = document.querySelector("#movieBoard");
-const countdown = document.querySelector("#countdown");
 
 function normalize(value) {
   return value.trim().toLowerCase().replace(/\s+/g, " ");
@@ -220,22 +218,5 @@ function renderMovies() {
   });
 }
 
-function updateCountdown() {
-  const now = new Date();
-  const diff = arrivalDate.getTime() - now.getTime();
-
-  if (diff <= 0) {
-    countdown.textContent = "Visit in progress";
-    return;
-  }
-
-  const daysLeft = Math.floor(diff / 86400000);
-  const hoursLeft = Math.floor((diff % 86400000) / 3600000);
-  const minutesLeft = Math.floor((diff % 3600000) / 60000);
-  countdown.textContent = `${daysLeft}d ${hoursLeft}h ${minutesLeft}m`;
-}
-
 renderDays();
 renderMovies();
-updateCountdown();
-setInterval(updateCountdown, 60000);

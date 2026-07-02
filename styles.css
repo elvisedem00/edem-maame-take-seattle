@@ -340,7 +340,7 @@ a {
   transform: rotate(2.2deg);
 }
 
-.countdown-card {
+.pickup-card {
   position: absolute;
   right: -12px;
   bottom: 34px;
@@ -370,15 +370,15 @@ a {
   backdrop-filter: blur(12px);
 }
 
-.countdown-card span,
-.countdown-card small {
+.pickup-card span,
+.pickup-card small {
   color: var(--muted);
   font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.04em;
 }
 
-.countdown-card strong {
+.pickup-card strong {
   font-size: clamp(1.8rem, 8vw, 3rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
@@ -673,7 +673,7 @@ a {
     min-height: 420px;
   }
 
-  .countdown-card {
+  .pickup-card {
     right: 10px;
     bottom: 18px;
   }
