@@ -65,12 +65,13 @@ const days = [
   },
   {
     date: "Monday",
-    title: "Microsoft, Mall + The Odyssey",
-    vibe: "Microsoft campus, mall wandering, and a very big movie.",
+    title: "Microsoft, Books + The Odyssey",
+    vibe: "Microsoft campus, mall wandering, books, and a very big movie.",
     stripe: "#7bb7d8",
     plan: [
       ["Daytime", "Microsoft campus tour"],
       ["After", "Mall stop"],
+      ["Book hour", "Barnes & Noble"],
       ["7:30pm", "The Odyssey"],
     ],
   },
