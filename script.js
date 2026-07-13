@@ -58,7 +58,6 @@ const days = [
       ["All day", "Movies all day"],
       ["Evening", "Baking"],
       ["Night", "Dressy dinner around 8:30pm"],
-      ["Overall", "Doing whatever feels fun"],
     ],
   },
   {
