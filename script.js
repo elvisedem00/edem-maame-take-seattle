@@ -51,12 +51,13 @@ const days = [
   {
     date: "Sunday",
     title: "Stay In, Then Dress Up",
-    vibe: "Tea, movies, dinner, baking, and doing the absolute least.",
+    vibe: "Tea, books, movies, dinner, baking, and doing the absolute least.",
     stripe: "#9bd3bf",
     outfit: "Cozy during the day. Something dressy for dinner.",
     plan: [
       ["Morning", "Tea somewhere"],
-      ["All day", "Movies all day"],
+      ["After tea", "Cool bookstore"],
+      ["Afternoon", "Movies all afternoon"],
       ["Evening", "Baking"],
       ["Night", "Dressy dinner around 8:30pm"],
       ["After dinner", "House of the Dragon"],
@@ -64,13 +65,12 @@ const days = [
   },
   {
     date: "Monday",
-    title: "Microsoft, Books + The Odyssey",
-    vibe: "Microsoft campus, mall wandering, and a bookstore stop.",
+    title: "Microsoft, Mall + The Odyssey",
+    vibe: "Microsoft campus, mall wandering, and a very big movie.",
     stripe: "#7bb7d8",
     plan: [
       ["Daytime", "Microsoft campus tour"],
       ["After", "Mall stop"],
-      ["Book hour", "Barnes & Noble"],
       ["7:30pm", "The Odyssey"],
     ],
   },
