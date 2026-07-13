@@ -17,9 +17,9 @@ const days = [
   {
     date: "Friday",
     title: "Exploring the City",
-    vibe: "Waterfront, aquarium, boat views, a big wheel, and a dressy evening.",
+    vibe: "Waterfront, aquarium, boat views, a big wheel, and city wandering.",
     stripe: "#d65f45",
-    outfit: "Comfortable shoes during the day. Something dressy for dinner.",
+    outfit: "Comfortable shoes during the day.",
     plan: [
       ["Morning", "Breakfast at home"],
       ["Late morning", "Walk to the waterfront"],
@@ -28,7 +28,7 @@ const days = [
       ["Afternoon", "Salish Sea Tours from Pier 57"],
       ["After boat", "Wings Over Washington"],
       ["After Wings", "Seattle Great Wheel"],
-      ["Evening", "Home reset, then dressy dinner"],
+      ["Evening", "Home reset, then a chill night"],
     ],
   },
   {
@@ -50,13 +50,13 @@ const days = [
   {
     date: "Sunday",
     title: "Spend the Day at Home With Me?",
-    vibe: "Brunch, movies, cooking, baking, and doing the absolute least.",
+    vibe: "Brunch, movies, dinner, baking, and doing the absolute least.",
     stripe: "#9bd3bf",
-    outfit: "Aggressively comfortable.",
+    outfit: "Cozy during the day. Something dressy for dinner.",
     plan: [
       ["Morning", "Brunch at home"],
       ["All day", "Movies all day"],
-      ["Late afternoon", "Cooking dinner"],
+      ["Late afternoon", "Dressy dinner"],
       ["Evening", "Baking"],
       ["Overall", "Doing whatever feels fun"],
     ],
