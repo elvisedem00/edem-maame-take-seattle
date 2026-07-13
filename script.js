@@ -58,6 +58,7 @@ const days = [
       ["All day", "Movies all day"],
       ["Evening", "Baking"],
       ["Night", "Dressy dinner around 8:30pm"],
+      ["After dinner", "House of the Dragon"],
     ],
   },
   {
@@ -70,6 +71,7 @@ const days = [
       ["Daytime", "Microsoft campus tour"],
       ["After", "Mall stop"],
       ["Book hour", "Barnes & Noble"],
+      ["7:30pm", "The Odyssey"],
     ],
   },
   {
