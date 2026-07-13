@@ -33,7 +33,7 @@ const days = [
   },
   {
     date: "Saturday",
-    title: "Seattle Center by Day, Belltown by Night",
+    title: "Seattle Center + Friends",
     vibe: "Views, glass gardens, Bite of Seattle, friends, and a classified night plan.",
     stripe: "#e3b64d",
     outfit: "Casual during the day. Semi-formal-ish for the night, but not dressy.",
@@ -50,7 +50,7 @@ const days = [
   },
   {
     date: "Sunday",
-    title: "Stay In, Then Dress Up",
+    title: "Tea, Books + Home",
     vibe: "Tea, books, movies, dinner, baking, and doing the absolute least.",
     stripe: "#9bd3bf",
     outfit: "Cozy during the day. Something dressy for dinner.",
@@ -70,8 +70,7 @@ const days = [
     stripe: "#7bb7d8",
     plan: [
       ["Daytime", "Microsoft campus tour"],
-      ["After", "Mall stop"],
-      ["Book hour", "Barnes & Noble"],
+      ["After", "Mall stop + Barnes & Noble"],
       ["7:30pm", "The Odyssey"],
     ],
   },
