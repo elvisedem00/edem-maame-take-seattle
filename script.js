@@ -67,7 +67,6 @@ const days = [
     title: "Microsoft, Books + The Odyssey",
     vibe: "Microsoft campus, mall wandering, and a bookstore stop.",
     stripe: "#7bb7d8",
-    outfit: "Casual, walkable, bookstore-compatible.",
     plan: [
       ["Daytime", "Microsoft campus tour"],
       ["After", "Mall stop"],
@@ -80,7 +79,6 @@ const days = [
     title: "Stay at Home Day",
     vibe: "No big plans. Just staying in, relaxing, and hanging out.",
     stripe: "#5d406f",
-    outfit: "Cozy at-home clothes.",
     plan: [
       ["All day", "Stay at home"],
       ["Plan", "Relax, talk, watch things, and do whatever feels good"],
@@ -91,7 +89,6 @@ const days = [
     title: "Final Chapter",
     vibe: "Final moments at home, doing nothing.",
     stripe: "#ef9a8a",
-    outfit: "Comfortable.",
     plan: [
       ["Morning", "I would like to spend the final moments at home with you doing nothing."],
       ["Departure", "Airport run"],
@@ -151,6 +148,15 @@ function renderDays() {
             <p>${day.classified}</p>
           </div>`
         : "";
+      const outfit = day.outfit
+        ? `<div class="outfit-box">
+            <strong>Outfit hint</strong>
+            <p>${day.outfit}</p>
+          </div>`
+        : "";
+      const daySide = outfit || classified
+        ? `<aside class="day-side">${outfit}${classified}</aside>`
+        : "";
 
       return `
         <article class="day-card ${index === 0 ? "is-open" : ""}" style="--stripe: ${day.stripe}">
@@ -162,15 +168,9 @@ function renderDays() {
             </span>
             <span class="toggle-mark" aria-hidden="true">${index === 0 ? "-" : "+"}</span>
           </button>
-          <div class="day-details">
+          <div class="day-details ${daySide ? "" : "is-full"}">
             <ul class="plan-list">${plan}</ul>
-            <aside class="day-side">
-              <div class="outfit-box">
-                <strong>Outfit hint</strong>
-                <p>${day.outfit}</p>
-              </div>
-              ${classified}
-            </aside>
+            ${daySide}
           </div>
         </article>
       `;

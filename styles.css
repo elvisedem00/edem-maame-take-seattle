@@ -519,6 +519,10 @@ a {
   padding: 0 20px 22px 28px;
 }
 
+.day-details.is-full {
+  grid-template-columns: 1fr;
+}
+
 .day-card.is-open .day-details {
   display: grid;
   animation: reveal 280ms ease both;
