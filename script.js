@@ -56,8 +56,8 @@ const days = [
     plan: [
       ["Morning", "Brunch at home"],
       ["All day", "Movies all day"],
-      ["Late afternoon", "Dressy dinner"],
       ["Evening", "Baking"],
+      ["Night", "Dressy dinner around 8:30pm"],
       ["Overall", "Doing whatever feels fun"],
     ],
   },
