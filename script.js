@@ -45,6 +45,7 @@ const days = [
       ["Evening", "Dinner or light drinks"],
       ["Night", "Classified"],
       ["Late night", "Bar hopping"],
+      ["Photo mission", "Photobooth at Jupiter"],
     ],
   },
   {
