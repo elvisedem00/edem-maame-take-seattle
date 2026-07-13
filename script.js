@@ -51,11 +51,11 @@ const days = [
   {
     date: "Sunday",
     title: "Stay In, Then Dress Up",
-    vibe: "Brunch, movies, dinner, baking, and doing the absolute least.",
+    vibe: "Tea, movies, dinner, baking, and doing the absolute least.",
     stripe: "#9bd3bf",
     outfit: "Cozy during the day. Something dressy for dinner.",
     plan: [
-      ["Morning", "Brunch at home"],
+      ["Morning", "Tea somewhere"],
       ["All day", "Movies all day"],
       ["Evening", "Baking"],
       ["Night", "Dressy dinner around 8:30pm"],
