@@ -76,13 +76,13 @@ const days = [
   },
   {
     date: "Tuesday",
-    title: "TBD",
-    vibe: "Still planning.",
+    title: "Stay at Home Day",
+    vibe: "No big plans. Just staying in, relaxing, and hanging out.",
     stripe: "#5d406f",
-    outfit: "TBD.",
+    outfit: "Cozy at-home clothes.",
     plan: [
-      ["Status", "TBD"],
-      ["Note", "Still planning this one."],
+      ["All day", "Stay at home"],
+      ["Plan", "Relax, talk, watch things, and do whatever feels good"],
     ],
   },
   {
