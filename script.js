@@ -46,13 +46,12 @@ const days = [
   },
   {
     date: "Sunday",
-    title: "Tea and Movies",
-    vibe: "Tea, a bookstore, movies, and dinner.",
+    title: "Movies and Dinner",
+    vibe: "A bookstore, movies, and dinner.",
     stripe: "#9bd3bf",
     outfit: "Comfortable during the day. Dressy for dinner.",
     plan: [
-      ["Morning", "Tea somewhere"],
-      ["After tea", "Cool bookstore"],
+      ["Morning", "Cool bookstore"],
       ["Afternoon", "Movies all afternoon"],
       ["Night", "Dressy dinner around 8:30pm"],
       ["After dinner", "House of the Dragon"],
