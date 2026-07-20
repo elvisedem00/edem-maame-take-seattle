@@ -74,7 +74,6 @@ const days = [
     title: "WNBA Game",
     vibe: "Time at home, then the WNBA game.",
     stripe: "#5d406f",
-    outfit: "Casual clothes.",
     plan: [
       ["Daytime", "Stay at home, relax, and hang out"],
       ["Before the game", "Get ready and head to the arena"],
