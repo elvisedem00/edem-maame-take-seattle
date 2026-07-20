@@ -32,12 +32,10 @@ const days = [
   {
     date: "Saturday",
     title: "Seattle Center",
-    vibe: "Space Needle, Chihuly, Bite of Seattle, and friends.",
+    vibe: "Bite of Seattle and friends.",
     stripe: "#e3b64d",
     outfit: "Casual during the day. Semi-formal in the evening.",
     plan: [
-      ["Late morning", "Space Needle"],
-      ["Midday", "Chihuly Garden and Glass"],
       ["Afternoon", "Bite of Seattle with friends"],
       ["Late afternoon", "Return home and change"],
       ["Evening", "Dinner or light drinks"],
